@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  height: 100%;
+}
+
+.background {
+  /* background-image: url(images/people.jpeg); */
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  text-align: center;
+  font-size: 100px;
+}
+
+.title2 {
+  text-align: center;
+  font-size: 36px;
+  margin-top: 50px;
+}
+
+.checkboxes {
+  margin-top: 50px;
+}
+
+.form {
+  display: flex;
+  justify-content: space-evenly;
+}
