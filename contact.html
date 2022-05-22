@@ -25,7 +25,7 @@
     <h2 class="title2">How did you hear about me?</h2>
 
     <section class="checkboxes">
-      <form class="form" action="">
+      <form class="form" action="results.html" method="GET" enctype="multipart/form-data">
         <div class="firstCheck">
           <label for="classmate">Classmate</label>
           <input type="checkbox" name="classmate" id="classmate">
@@ -48,7 +48,7 @@
     <h2 class="title3">Would you like to be contacted?</h2>
 
     <section class="contactedPrompt">
-      <form class="form2" action="">
+      <form class="form2" action="results.html" method="GET" enctype="multipart/form-data">
         <div class="yesPrompt">
           <label for="yes">Yes</label>
           <input type="radio" name="yes" id="yes">
@@ -63,7 +63,7 @@
     <h2 class="title4">Email Address</h2>
 
     <section class="emailPrompt">
-      <form class="form3" action="">
+      <form class="form3" action="results.html" method="GET" enctype="multipart/form-data">
         <div class="emailInput">
           <label for="email">Email:</label>
           <input type="email" name="email" id="email" size="50">
@@ -74,7 +74,7 @@
     <h2 class="title5">If you would like a birthday wish, submit your birthdate! &#127881;</h2>
 
     <section class="birthdayPrompt">
-      <form class="form4" action="">
+      <form class="form4" action="results.html" method="GET" enctype="multipart/form-data">
         <div class="birthdate">
           <label for="date">Date:</label>
           <input type="date" name="date" id="date">
@@ -84,7 +84,7 @@
     </section>
 
     <section class="commentPrompt">
-      <form class="form5" action="">
+      <form class="form5" action="results.html" method="GET" enctype="multipart/form-data">
         <div class="commentArea">
           <label for="comments">Comments:</label>
           <textarea name="comments" id="comments" maxlength="500" minlength="20" rows="20" cols="100"></textarea>
@@ -94,9 +94,11 @@
 
     <section class="submitBtn">
       <div class="button">
-        <button class="btn">Submit</button>
+        <button class="btn" type="submit" value="Submit">Submit</button>
       </div>
     </section>
+
+    <script src="contact.js"></script>
 
   </main>
 
