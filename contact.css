@@ -1,14 +1,15 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 body, html {
+  background-color: #45a8cf;
   height: 100%;
 }
 
 .background {
-  /* background-image: url(images/people.jpeg); */
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -97,4 +98,65 @@ body, html {
   font-size: 24px;
   top:50%; 
   left:50%;
+}
+
+.button {
+  padding-right: 75px;
+}
+
+@media (max-width: 576px) {
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .title {
+    padding-left: 175px;
+  }
+
+  .title2 {
+    padding-left: 175px;
+    /* font-size: 30px; */
+  }
+
+  .form {
+    padding-left: 175px;
+  }
+
+  .title3 {
+    padding-left: 175px;
+  }
+
+  .form2 {
+    padding-left: 175px;;
+  }
+
+  .title4 {
+    padding-left: 175px;
+  }
+
+  .form3{
+    padding-left: 175px;
+  }
+
+  .title5 {
+    padding-left: 175px;
+  }
+
+  .form4 {
+    padding-left: 175px;
+  }
+
+  .button {
+    padding-left: 175px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .button {
+    padding-right: 125px;
+  }
 }
